@@ -1,5 +1,5 @@
-var express = require('express');
-var bodyParser = require('body-parser');
+const express = require('express');
+const bodyParser = require('body-parser');
 router = express.Router();
 
 var candies;
@@ -9,6 +9,7 @@ var candies;
 
 router.get('/', function(req,res) {
 	// What would go here? 
+
 	// Hint: we want all candies in JSON format
 });
 
